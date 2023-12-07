@@ -1,0 +1,198 @@
+/* ALL */
+
+html {
+    font-family: Garamond, serif;
+    scroll-behavior: smooth;
+}
+
+/* BODY */
+
+body {
+    margin: 0;
+}
+
+/* NAVBAR */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation ul { /*navbar*/
+    width: 100%;
+    margin: 0px;
+    overflow: hidden;
+    background-color: #0e7f79;
+    display: block;
+    position: fixed;
+}
+
+.navigation ul li { /*navbar list*/
+    display: inline;
+    float: right;
+    background-color: #333;
+}
+
+.navigation ul li a { /*navbar list box*/
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navigation a:hover { /*navbar list box when cursored*/
+    background-color: #dff8fe;
+    color: black;
+    transition: 0.3s;
+}
+
+/* TO THE TOP BUTTON */
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #0e7f79;
+    color: white;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 6px;
+    font-size: 18px;
+    rotate: -90deg;
+}
+  
+#myBtn:hover {
+    background-color: black; /* Add a dark-grey background on hover */
+}
+
+/* HEADER */
+
+.header {
+    text-align: center;
+}
+
+.header img {
+    width: 100%;
+    height: auto;
+}
+/* PROFILE */
+
+#profile {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* MEMBER */
+#member {
+    text-align: center;
+}
+/* GALLERY */
+
+.gallery {
+    margin: 6px;
+    text-align: center
+}
+
+.gallery ul li {
+    display: inline-block;
+}
+
+.gallery ul li a {
+    display: block;
+    padding: 6px;
+}
+
+/* SOCIAL MEDIA SIGN */
+
+.socmed_icon {
+    background-color: #DFF8FE;
+    text-align: center;
+}
+
+.socmed_icon i {
+    position: relative;
+    display: inline-block;
+}
+
+#socmed_sign {
+    display: block;
+    padding: 14px 0px 0px 0px;
+    font-size: larger;
+}
+
+.socmed_icon i a {
+    display: block;
+    margin: 14px 24px;
+    padding: 6px;
+    fill: #0e7f79;
+    text-decoration: none;
+    font-style: normal;
+    color: #333;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: smaller;
+}
+
+.socmed_icon i a:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+    color: black;
+}
+
+#icon_instagram:hover {
+    fill: url(#instagram_gradient);
+}
+
+#icon_youtube:hover {
+    fill: #cd201f;
+}
+
+#icon_discord:hover {
+    fill: #5765EC;
+}
+
+#icon_spotify:hover {
+    fill: #1db954;
+    border-radius: 20%;
+    background-color: black;
+}
+
+/* FILLER */
+
+.filler {
+    text-align: center;
+    margin: 12px;
+}
+
+.filler ul li {
+    display: inline-block;
+}
+
+.filler ul li a {
+    display: block;
+    padding: 12px;
+}
+
+/* FOOTER */
+
+.footer {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 24px;
+    background-color: #DFF8FE;
+}
+
+.footer a {
+    display: block;
+    padding: 12px;
+}
+
+.footer #foot_bottom {
+    background-color: black;
+    color: rgba(255, 255, 255, 0.233);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: smaller;
+}
