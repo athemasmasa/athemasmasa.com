@@ -4,134 +4,323 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Athema Smasa</title>
-    <link rel="stylesheet" href="./style_home.css">
+    <link rel="icon" type="image/x-icon" href="">
+    <link rel="stylesheet" href="style_home.css">
 </head>
 <body>
-    <span class="navigation">
+    <div class="navigation">
+        <div class="progress-container">
+            <div class="progress-bar" id="myBar"></div>
+        </div>
         <ul>
             <li><a href="#socmed">Social media</a></li>
+            <li><a href="#stuff">Masterpiece</a></li>
             <li><a href="#gallery">Gallery</a></li>
             <li><a href="#member">Member</a></li>
             <li><a href="#profile">Profile</a></li>
-            <li style="float:left"><a href="#home" onClick="window.location.reload()">O</a></li>
+            <li style="float:left;"><a href="#home" onClick="window.location.reload()">O</a></li>
         </ul>
-    </span>
-
-    <button onclick="topFunction()" id="myBtn" title="Go to top">
-        ➜
-    </button>
-
-    <div class="header" id="home">
-        <img src="https://drive.google.com/uc?export=view&id=1bYaswYiqJIDyrMLN1RaRvbS6am2WzV8_" width="160" height="90">
-        <h1>ATHEMA SMASA</h1>
-        <h3>Association of Students MIPA 5</h3>    
     </div>
 
-    <div id="profile">
-        <p>
-            Oke jadi kita adalah kelas MIPA 5.
-            <br>Enjoy the web!
-        </p>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">⬆</button>
+
+    <div class="master_content">
+
+        <div class="header" id="home">
+            <img src="https://drive.google.com/uc?export=view&id=1k9130N4xI9dyX74vmJt5pPTEIv3IW2oY" width="160" height="90">
+        </div>
+
+        <div class="title" id="profile">
+            <a id="head-title">ATHEMA SMASA</a><br/>
+            <a id="subhead-title">Association of Students MIPA 5</a>
+        </div>
+
+        <div class="profile">
+            <a><p>Oke jadi kita adalah kelas MIPA 5.<br>Enjoy the web!<br>!!!attention : still in construction!!!</p></a>
+        </div>
+
+        <div class="member" id="member">
+            <a class="sub-title" id="memberTitle">Athema's Member</a>
+
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <div class="numbertext">1/34</div>
+                    <img src="https://drive.google.com/uc?export=view&id=1S8brOJIZp5aOIQS1FwsK3KT5EoBQuiUz" style="width:100%" >
+                    <div class="text">Adenia Puspawati Khoiri</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">2/34</div>
+                    <img src="https://drive.google.com/uc?export=view&id=1KdAVkOrFBxvq716SstmsU1_rDaQgWPQL" style="width:100%" >
+                    <div class="text">Adinda Cita Clasica</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">3/34</div>
+                    <img src="https://drive.google.com/uc?export=view&id=17fZtA1vXaN_ricNNoF0hs7aCdZyG_xKB" style="width:100%" >
+                    <div class="text">Adinda Kharisma Putri</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">4/34</div>
+                    <img src="https://drive.google.com/uc?export=view&id=1RMVcu9Cm6pGhkgkGvKhqVk77QBL2IpCv" style="width:100%" >
+                    <div class="text">Ahmad Rahardan</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">5/34</div>
+                    <img src="https://drive.google.com/uc?export=view&id=1AzjQJa8Mk3r1PMQJBWNG_D_OATdr0Mxu" style="width:100%" >
+                    <div class="text">Aisyah Aliefia Rahmatillah Marsuki</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">6/34</div>
+                    <img src="https://drive.google.com/uc?export=view&id=1DmPzv6jmAp1Ml8asPX9C9Y71qmFhm56z" style="width:100%" >
+                    <div class="text">Akmal Rafasya Dhamarie</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">7/34</div>
+                    <img src="https://drive.google.com/uc?export=view&id=1Oc_7JH-g3w6QLeHbpUVA4GRuixtnNtjK" style="width:100%" >
+                    <div class="text">Anastasya Putri Fortunata</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">8/34</div>
+                    <img src="https://drive.google.com/uc?export=view&id=1uJuTqIELMuG2mOXJ1dgY2IKc5T4LNb2R" style="width:100%" >
+                    <div class="text">Arya Didansyah</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">9/34</div>
+                    <img src="https://drive.google.com/uc?export=view&id=1g3S3iaRpUM1fGgGsJMl_njhrMt9dtMk_" style="width:100%" >
+                    <div class="text">Brillian Maulana Syah</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">10/34</div>
+                    <img src="https://drive.google.com/uc?export=view&id=1mW9x485tX0ovj6HB2lfDd9jDbOW92DGa" style="width:100%" >
+                    <div class="text">Callysta Vindi Tyascahyani</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">11/34</div>
+                    <img src="https://drive.google.com/uc?export=view&id=1RI4wQ0JF3ug_O1f4ceZ_k3KUEgH5wm9_" style="width:100%" >
+                    <div class="text">Cory Gracia</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">12/34</div>
+                    <img src="https://drive.google.com/uc?export=view&id=13BVSvIdrLMWXmQKlJ_DRBBNrU00dvFIB" style="width:100%" >
+                    <div class="text">Davin Evan Bahtiar</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">13/34</div>
+                    <img src="https://drive.google.com/uc?export=view&id=1L0q2X4yzQaO21l9X0EBHkEvPIzAJSFgR" style="width:100%" >
+                    <div class="text">Diah Ayu Wulandari</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">14/34</div>
+                    <img src="https://drive.google.com/uc?export=view&id=1eJRnKv1uc1MIj4pTuwD7ycbKsvlJJgwt" style="width:100%" >
+                    <div class="text">Gusti Ayu Anindya Putri Davita</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">15/34</div>
+                    <img src="https://drive.google.com/uc?export=view&id=1V9nwFTtm0QIW2-TDkkxunEG1Ar2o9a1d" style="width:100%" >
+                    <div class="text">Hanunah Ayesha Rahmadini</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">16/34</div>
+                    <img src="https://drive.google.com/uc?export=view&id=1FbWurhzmeal1nKTaSj6z48bWqEk2ZURy" style="width:100%" >
+                    <div class="text">Krisna Dewantara</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">17/34</div>
+                    <img src="https://drive.google.com/uc?export=view&id=1SaW7ixv7d_G4cHcxxmN97AuZoG-0iEdH" style="width:100%" >
+                    <div class="text">Krisna Januar Adha</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">18/34</div>
+                    <img src="https://drive.google.com/uc?export=view&id=1yBhDUwmQ9xcn6fUFWgxop7ZuYVs4t1X7" style="width:100%" >
+                    <div class="text">Malinda Qurrotha Ainy</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">19/34</div>
+                    <img src="https://drive.google.com/uc?export=view&id=1UgTnBa2cgT9ZOo2gHvflRZgUR7oeXuTv" style="width:100%" >
+                    <div class="text">Maya Lazuardi</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">20/34</div>
+                    <img src="https://drive.google.com/uc?export=view&id=1hZyPYUHP9ZA-Ht24K7aITrSv2AIB4N_l" style="width:100%" >
+                    <div class="text">Mohammad Al Hikam</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">21/34</div>
+                    <img src="https://drive.google.com/uc?export=view&id=1V6T5zEI21cPPX28U4BhsZ8rgfQIQwaKS" style="width:100%" >
+                    <div class="text">Muhammad Iqbal Murobbi</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">22/34</div>
+                    <img src="https://drive.google.com/uc?export=view&id=16y-_vUwc3xcazg1wgKeBwUqOwLGq0zc-" style="width:100%" >
+                    <div class="text">Nadia Alya Putri Maulidiyani</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">23/34</div>
+                    <img src="https://drive.google.com/uc?export=view&id=1SZP-g5DVgUvlyFAcfe418IzIOqBHICAT" style="width:100%" >
+                    <div class="text">Nia Damayanti</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">24/34</div>
+                    <img src="https://drive.google.com/uc?export=view&id=12afoEuRyOkbMWdlPh6zkeGus5FwIZmgp" style="width:100%" >
+                    <div class="text">Novisyah Dhiya 'Ulhaq</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">25/34</div>
+                    <img src="https://drive.google.com/uc?export=view&id=1NexBgpcQB360juO0ZFT57HpDAcE0NZ_5" style="width:100%" >
+                    <div class="text">Putri Ayu Nur Rizqi Amalia</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">26/34</div>
+                    <img src="https://drive.google.com/uc?export=view&id=1dmAJC3IsguFlBOkWb7kzipYftd58eIOL" style="width:100%" >
+                    <div class="text">Regita Dellalisna Ramadhani</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">27/34</div>
+                    <img src="https://drive.google.com/uc?export=view&id=1aQAyoYAEB6r7w4Daq9K6IG9zTvSM9e9M" style="width:100%" >
+                    <div class="text">Revana Anriz Salsabila</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">28/34</div>
+                    <img src="https://drive.google.com/uc?export=view&id=19RZkxn7gD1H_-ZZ8yCn4UwXU6NMMN4Op" style="width:100%" >
+                    <div class="text">Rifqy Naufal Dzulfahmi</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">29/34</div>
+                    <img src="https://drive.google.com/uc?export=view&id=1NQOXbjIMaprLSwDo_EdjU7GcQzPSzuqp" style="width:100%" >
+                    <div class="text">Seftin Eka Pratiwi</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">30/34</div>
+                    <img src="https://drive.google.com/uc?export=view&id=1q15bu_HJiABb1vgm1xQzK4Rnq5N8Y9FN" style="width:100%" >
+                    <div class="text">Sendy Fenita</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">31/34</div>
+                    <img src="https://drive.google.com/uc?export=view&id=165ln07tFpsuVzxQy_y4xOoBCNSnejk8i" style="width:100%" >
+                    <div class="text">Tarishah Laila Faizah</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">32/34</div>
+                    <img src="https://drive.google.com/uc?export=view&id=1d5A0QFYRzBrxAeizfcxmxltgV7GQgiVu" style="width:100%" >
+                    <div class="text">Taufiqurohman Satrio Wibowo</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">33/34</div>
+                    <img src="https://drive.google.com/uc?export=view&id=1tdKoVNzs0cr4ibA9TtLWXURN_PZSfzLq" style="width:100%" >
+                    <div class="text">Vidian Neysa Syarief</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">34/34</div>
+                    <img src="https://drive.google.com/uc?export=view&id=1zdzkmntDXRXIvR2s0S4L-flwu5I6SOpn" style="width:100%" >
+                    <div class="text">Zhafif Hylmi Yulianto</div>
+                </div>
+
+                <!-- Next & Prev buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            </div>
+            <br>
+
+            <!-- dots/circle -->
+            <div style="text-align: center;">
+                <span class="dot" onclick="plusSlides(-5)">↞ 5</span>
+                <span class="dot" onclick="plusSlides(-1)">← 1</span>
+                <span id="autoBtn" class="dot" onclick="toggleAuto()">Auto</span>
+                <span class="dot" onclick="plusSlides(1)">1 →</span>
+                <span class="dot" onclick="plusSlides(5)">5 ↠</span>
+            </div>
+
+        </div>
+
+        <div id="gallery" class="gallery">
+            <a class="sub-title" id="galleryTitle" style="background-color: inherit;">Some of Our Snapshot and Past</a>
+            <ul>
+                <li><a><img src="https://drive.google.com/uc?export=view&id=12K7Kc5bW61Kw8gEBzzK29BTxKhtyV1Co" id="gallery-img"></a></li>
+                <li><a><img src="https://drive.google.com/uc?export=view&id=1yQcZCE2IV3T9tq7t7zenldSogDRyH39z" id="gallery-img"></a></li>
+            </ul>  
+        </div>
+
+        <div class="linking" id="stuff">
+            <a class="sub-title" id="stuffTitle">Our Work and Stuff</a>
+            <ul>
+                <li><a href="https://youtu.be/uOAV80IocCY?si=Npe4FgazhEgBKC_5" target="_blank"><img id="youtubevid" src="http://img.youtube.com/vi/uOAV80IocCY/hqdefault.jpg" title="XI Seni Budaya - Click to watch it on YouTube" alt="YouTube - Flair Of Adolescene" width="224" height="170"><br> Flair Of Adolescene </a></li>
+                <li><a href="https://youtu.be/ygP9qY-YawA?si=xgpuj67k95evnesD" target="_blank"><img id="youtubevid" src="http://img.youtube.com/vi/ygP9qY-YawA/hqdefault.jpg" title="Sinematografi - Click to watch it on YouTube" alt="YouTube - Aku Ingin Dunia" width="224" height="170"><br> Aku ingin Dunia </a></li>
+                <li><a href="https://www.instagram.com/p/CeUrY28O86H/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==" target="_blank"><img id="igvid" src="https://drive.google.com/uc?export=view&id=17EfZckvMm_MfrQr_ndZudJ4ZGjC8hEQq" title="Drama BINDO XI - Click to watch it on Instagram" alt="Instagram - Gak Taken Padahal" width="95.625" height="170"><br> Gak Teken Padahal </a></li>
+                <li><a href="https://youtu.be/1Eahgs1bd0g?si=Lu9hVVLoFUkgwcZ_" target="_blank"><img id="youtubevid" src="http://img.youtube.com/vi/1Eahgs1bd0g/hqdefault.jpg" itle="XII Seni Budaya - Click to watch it on YouTube" alt="YouTube - Aku Ingin Dunia" width="224" height="170"><br> Nirwana Triasih </a></li>
+                <li><a href="https://www.instagram.com/tv/CXx8ZbiJtwF/?utm_source=ig_embed&amp;utm_campaign=loading" target="_blank"><img id="igvid" src="https://drive.google.com/uc?export=view&id=10_HD-_aEWx-eV-Zqj_kBf1nkkK_nVr8S" title="Clasmet XI Ganjil - Click to watch it on Instagram" alt="Instagram - Resik-Resik" width="95.625" height="170"><br> Clasmet XI-Ganjil </a></li>
+                <li><a href="https://youtu.be/ciVqYayli4E?si=rR6WdUf951P6OtXX" target="_blank"><img id="youtubevid" src="http://img.youtube.com/vi/ciVqYayli4E/hqdefault.jpg" title="Drama BINDO XI - Click to watch it on YouTube" alt="YouTube - Sahabat Melarat Kita Bertindak" width="224" height="170"><br> Sahabat Melarat Kita Bertindak </a></li>
+            </ul>  
+        </div>
+
+        <div id="socmed" class="socmed_icon">
+            <a class="sub-title" id="socmed_sign">Our Social Media<br></a>
+            <i>
+                <a id="icon_instagram" target="_blank" href="https://instagram.com/athema.smasa" aria-label="@athema.smasa instagram">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="52" width="48" viewBox="0 0 448 512">
+                        <path d="M194.4 211.7a53.3 53.3 0 1 0 59.3 88.7 53.3 53.3 0 1 0 -59.3-88.7zm142.3-68.4c-5.2-5.2-11.5-9.3-18.4-12c-18.1-7.1-57.6-6.8-83.1-6.5c-4.1 0-7.9 .1-11.2 .1c-3.3 0-7.2 0-11.4-.1c-25.5-.3-64.8-.7-82.9 6.5c-6.9 2.7-13.1 6.8-18.4 12s-9.3 11.5-12 18.4c-7.1 18.1-6.7 57.7-6.5 83.2c0 4.1 .1 7.9 .1 11.1s0 7-.1 11.1c-.2 25.5-.6 65.1 6.5 83.2c2.7 6.9 6.8 13.1 12 18.4s11.5 9.3 18.4 12c18.1 7.1 57.6 6.8 83.1 6.5c4.1 0 7.9-.1 11.2-.1c3.3 0 7.2 0 11.4 .1c25.5 .3 64.8 .7 82.9-6.5c6.9-2.7 13.1-6.8 18.4-12s9.3-11.5 12-18.4c7.2-18 6.8-57.4 6.5-83c0-4.2-.1-8.1-.1-11.4s0-7.1 .1-11.4c.3-25.5 .7-64.9-6.5-83l0 0c-2.7-6.9-6.8-13.1-12-18.4zm-67.1 44.5A82 82 0 1 1 178.4 324.2a82 82 0 1 1 91.1-136.4zm29.2-1.3c-3.1-2.1-5.6-5.1-7.1-8.6s-1.8-7.3-1.1-11.1s2.6-7.1 5.2-9.8s6.1-4.5 9.8-5.2s7.6-.4 11.1 1.1s6.5 3.9 8.6 7s3.2 6.8 3.2 10.6c0 2.5-.5 5-1.4 7.3s-2.4 4.4-4.1 6.2s-3.9 3.2-6.2 4.2s-4.8 1.5-7.3 1.5l0 0c-3.8 0-7.5-1.1-10.6-3.2zM448 96c0-35.3-28.7-64-64-64H64C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96zM357 389c-18.7 18.7-41.4 24.6-67 25.9c-26.4 1.5-105.6 1.5-132 0c-25.6-1.3-48.3-7.2-67-25.9s-24.6-41.4-25.8-67c-1.5-26.4-1.5-105.6 0-132c1.3-25.6 7.1-48.3 25.8-67s41.5-24.6 67-25.8c26.4-1.5 105.6-1.5 132 0c25.6 1.3 48.3 7.1 67 25.8s24.6 41.4 25.8 67c1.5 26.3 1.5 105.4 0 131.9c-1.3 25.6-7.1 48.3-25.8 67z"/>
+                            <radialGradient id="instagram_gradient" r="150%" cx="30%" cy="107%">
+                                <stop stop-color="#fdf497" offset="0" />
+                                <stop stop-color="#fdf497" offset="0.05" />
+                                <stop stop-color="#fd5949" offset="0.45" />
+                                <stop stop-color="#d6249f" offset="0.6" />
+                                <stop stop-color="#285AEB" offset="0.9" />
+                            </radialGradient>
+                    </svg>
+                    <br>
+                    <a style="transform: none;">Instagram</a>
+                </a>
+            </i>
+            <i>
+                <a id="icon_youtube" target="_blank" href="https://www.youtube.com/@athemasmasa8562" aria-label="@athema.smasa youtube">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="56" width="58" viewBox="0 0 576 512">
+                        <path d="M549.7 124.1c-6.3-23.7-24.8-42.3-48.3-48.6C458.8 64 288 64 288 64S117.2 64 74.6 75.5c-23.5 6.3-42 24.9-48.3 48.6-11.4 42.9-11.4 132.3-11.4 132.3s0 89.4 11.4 132.3c6.3 23.7 24.8 41.5 48.3 47.8C117.2 448 288 448 288 448s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zm-317.5 213.5V175.2l142.7 81.2-142.7 81.2z"/>
+                    </svg>
+                    <br><a style="transform: none;">YouTube</a>
+                </a>
+            </i>
+            <i>
+                <a id="icon_discord" target="_blank" href="https://discord.gg/UmkPdxXF" aria-label="@athema.smasa discord">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="50" width="54" viewBox="0 0 640 512">
+                        <path d="M524.5 69.8a1.5 1.5 0 0 0 -.8-.7A485.1 485.1 0 0 0 404.1 32a1.8 1.8 0 0 0 -1.9 .9 337.5 337.5 0 0 0 -14.9 30.6 447.8 447.8 0 0 0 -134.4 0 309.5 309.5 0 0 0 -15.1-30.6 1.9 1.9 0 0 0 -1.9-.9A483.7 483.7 0 0 0 116.1 69.1a1.7 1.7 0 0 0 -.8 .7C39.1 183.7 18.2 294.7 28.4 404.4a2 2 0 0 0 .8 1.4A487.7 487.7 0 0 0 176 479.9a1.9 1.9 0 0 0 2.1-.7A348.2 348.2 0 0 0 208.1 430.4a1.9 1.9 0 0 0 -1-2.6 321.2 321.2 0 0 1 -45.9-21.9 1.9 1.9 0 0 1 -.2-3.1c3.1-2.3 6.2-4.7 9.1-7.1a1.8 1.8 0 0 1 1.9-.3c96.2 43.9 200.4 43.9 295.5 0a1.8 1.8 0 0 1 1.9 .2c2.9 2.4 6 4.9 9.1 7.2a1.9 1.9 0 0 1 -.2 3.1 301.4 301.4 0 0 1 -45.9 21.8 1.9 1.9 0 0 0 -1 2.6 391.1 391.1 0 0 0 30 48.8 1.9 1.9 0 0 0 2.1 .7A486 486 0 0 0 610.7 405.7a1.9 1.9 0 0 0 .8-1.4C623.7 277.6 590.9 167.5 524.5 69.8zM222.5 337.6c-29 0-52.8-26.6-52.8-59.2S193.1 219.1 222.5 219.1c29.7 0 53.3 26.8 52.8 59.2C275.3 311 251.9 337.6 222.5 337.6zm195.4 0c-29 0-52.8-26.6-52.8-59.2S388.4 219.1 417.9 219.1c29.7 0 53.3 26.8 52.8 59.2C470.7 311 447.5 337.6 417.9 337.6z"/>
+                    </svg>
+                    <br><a style="transform: none;">Discord</a>
+                </a>    
+            </i>
+            <i>
+                <a id="icon_spotify" target="_blank" href="https://open.spotify.com/playlist/58vd3JIOLCCygmXgZWMhhJ?si=u0mjl-goQNa61sJTlA3uLw" aria-label="@athema.smasa spotify">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="49" width="48.5" viewBox="0 0 496 512">
+                        <path d="M248 8C111.1 8 0 119.1 0 256s111.1 248 248 248 248-111.1 248-248S384.9 8 248 8zm100.7 364.9c-4.2 0-6.8-1.3-10.7-3.6-62.4-37.6-135-39.2-206.7-24.5-3.9 1-9 2.6-11.9 2.6-9.7 0-15.8-7.7-15.8-15.8 0-10.3 6.1-15.2 13.6-16.8 81.9-18.1 165.6-16.5 237 26.2 6.1 3.9 9.7 7.4 9.7 16.5s-7.1 15.4-15.2 15.4zm26.9-65.6c-5.2 0-8.7-2.3-12.3-4.2-62.5-37-155.7-51.9-238.6-29.4-4.8 1.3-7.4 2.6-11.9 2.6-10.7 0-19.4-8.7-19.4-19.4s5.2-17.8 15.5-20.7c27.8-7.8 56.2-13.6 97.8-13.6 64.9 0 127.6 16.1 177 45.5 8.1 4.8 11.3 11 11.3 19.7-.1 10.8-8.5 19.5-19.4 19.5zm31-76.2c-5.2 0-8.4-1.3-12.9-3.9-71.2-42.5-198.5-52.7-280.9-29.7-3.6 1-8.1 2.6-12.9 2.6-13.2 0-23.3-10.3-23.3-23.6 0-13.6 8.4-21.3 17.4-23.9 35.2-10.3 74.6-15.2 117.5-15.2 73 0 149.5 15.2 205.4 47.8 7.8 4.5 12.9 10.7 12.9 22.6 0 13.6-11 23.3-23.2 23.3z"/>
+                    </svg>
+                    <br><a style="transform: none;">Spotify</a>
+                </a>    
+            </i>
+
+        </div>
+
+        <div class="filler">
+            <ul>
+                <li class="sub-title" style="background-color: inherit;">Maybe You Like This Random Items</li><br>
+                <li><a><img src="https://drive.google.com/uc?export=view&id=1o2Ok6LABkP3l9Ofrf6GVNTM9mtmKiyet" style="width: 146px; height: 200px;"></a></li>
+                <li><a><img src="https://drive.google.com/uc?export=view&id=1fx5JBLsmj7k9K534oxmWvLMQaYo2Kqbm" style="width: 146px; height: 200px;"></a></li>
+                <li><a><img src="https://drive.google.com/uc?export=view&id=14z9t58ia_OL1187t7VaRW07hj3_HUQZY" style="width: 146px; height: 200px;"></a></li>
+                <li><a><img src="https://drive.google.com/uc?export=view&id=1QC4aEnpVynDAlPK4XTMzvkYLWYlZthiv" style="width: 146px; height: 200px;"></a></li>
+                <li><a><img src="https://drive.google.com/uc?export=view&id=1nbTpdU8Wt8BXWcb33d7Qut4HV1ABEPKU" style="width: 146px; height: 200px;"></a></li>
+                <li><a><img src="https://drive.google.com/uc?export=view&id=1cGBPpJy-i8Cj3iVrx3DflyXzi8dxU4dl" style="width: 146px; height: 200px;"></a></li>
+            </ul>  
+        </div>
+
+        <div class="footer">
+            <p>Kelas XII MIPA 5<br><i>Association of Students MIPA 5</i></p>
+            <p style="font-weight: bold;">SMA NEGERI 1 JEMBER</p>
+            <p>Jl. Letjend Panjaitan No.55, Gumuk Kerang, Sumbersari, Kec. Sumbersari, Kabupaten Jember, Jawa Timur 68121</p>
+            <p>If you want to add or edit some stuff here, <a href="mailto:cman220314@gmail.com">mail to us!</a></p>
+            <p style="display: block; margin: 0; padding: 0; color: #0e7f79; background-color: #0e7f79; font-size: 3px;">.</p>
+            <p id="foot_bottom">Ex. XII MIPA 5 SMASA grad.2023 | ©athema.smasa | 2024</p>
+        </div>
+
     </div>
 
-    <div id="member">
-        <h4>Athema's Member</h4>
-        <img src="https://drive.google.com/uc?export=view&id=12K7Kc5bW61Kw8gEBzzK29BTxKhtyV1Co" style="width: 90px; height: 160px;">
-    </div>
-
-    <div id="gallery" class="gallery">
-        <ul>
-            <li><h3>Some of our memories</h3></li><br>
-            <li><a><img src="https://drive.google.com/uc?export=view&id=12K7Kc5bW61Kw8gEBzzK29BTxKhtyV1Co" style="width: 90px; height: 160px;"></a></li>
-            <li><a><img src="https://drive.google.com/uc?export=view&id=1yQcZCE2IV3T9tq7t7zenldSogDRyH39z" style="width: 160px; height: 90px;"></a></li>
-            <li><a><img src="https://lh6.googleusercontent.com/gELL3pZDpS1pZwktBWvPohdOLabz6qZhLr_D2oQZgM6UdtHidob4HzGOR3iTPzgheSvXZJ1QI3VxfZbWMsv_pgLuWM-zzEqkd2OvOfqnPHt7yjYZ7lEr8Lt8bxLvTWPAUg=w1280" style="width: 90px; height: 90px;"></a></li>
-            <li><a><img src="https://lh6.googleusercontent.com/gELL3pZDpS1pZwktBWvPohdOLabz6qZhLr_D2oQZgM6UdtHidob4HzGOR3iTPzgheSvXZJ1QI3VxfZbWMsv_pgLuWM-zzEqkd2OvOfqnPHt7yjYZ7lEr8Lt8bxLvTWPAUg=w1280" style="width: 90px; height: 90px;"></a></li>
-        </ul>  
-    </div>
-
-
-    <div id="socmed" class="socmed_icon">
-        <h4 id="socmed_sign">Our social media<br></h4>
-        <i>
-            <a id="icon_instagram" target="_blank" href="https://instagram.com/athema.smasa" aria-label="@athema.smasa instagram">
-                <svg xmlns="http://www.w3.org/2000/svg" height="52" width="48" viewBox="0 0 448 512">
-                    <path d="M194.4 211.7a53.3 53.3 0 1 0 59.3 88.7 53.3 53.3 0 1 0 -59.3-88.7zm142.3-68.4c-5.2-5.2-11.5-9.3-18.4-12c-18.1-7.1-57.6-6.8-83.1-6.5c-4.1 0-7.9 .1-11.2 .1c-3.3 0-7.2 0-11.4-.1c-25.5-.3-64.8-.7-82.9 6.5c-6.9 2.7-13.1 6.8-18.4 12s-9.3 11.5-12 18.4c-7.1 18.1-6.7 57.7-6.5 83.2c0 4.1 .1 7.9 .1 11.1s0 7-.1 11.1c-.2 25.5-.6 65.1 6.5 83.2c2.7 6.9 6.8 13.1 12 18.4s11.5 9.3 18.4 12c18.1 7.1 57.6 6.8 83.1 6.5c4.1 0 7.9-.1 11.2-.1c3.3 0 7.2 0 11.4 .1c25.5 .3 64.8 .7 82.9-6.5c6.9-2.7 13.1-6.8 18.4-12s9.3-11.5 12-18.4c7.2-18 6.8-57.4 6.5-83c0-4.2-.1-8.1-.1-11.4s0-7.1 .1-11.4c.3-25.5 .7-64.9-6.5-83l0 0c-2.7-6.9-6.8-13.1-12-18.4zm-67.1 44.5A82 82 0 1 1 178.4 324.2a82 82 0 1 1 91.1-136.4zm29.2-1.3c-3.1-2.1-5.6-5.1-7.1-8.6s-1.8-7.3-1.1-11.1s2.6-7.1 5.2-9.8s6.1-4.5 9.8-5.2s7.6-.4 11.1 1.1s6.5 3.9 8.6 7s3.2 6.8 3.2 10.6c0 2.5-.5 5-1.4 7.3s-2.4 4.4-4.1 6.2s-3.9 3.2-6.2 4.2s-4.8 1.5-7.3 1.5l0 0c-3.8 0-7.5-1.1-10.6-3.2zM448 96c0-35.3-28.7-64-64-64H64C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96zM357 389c-18.7 18.7-41.4 24.6-67 25.9c-26.4 1.5-105.6 1.5-132 0c-25.6-1.3-48.3-7.2-67-25.9s-24.6-41.4-25.8-67c-1.5-26.4-1.5-105.6 0-132c1.3-25.6 7.1-48.3 25.8-67s41.5-24.6 67-25.8c26.4-1.5 105.6-1.5 132 0c25.6 1.3 48.3 7.1 67 25.8s24.6 41.4 25.8 67c1.5 26.3 1.5 105.4 0 131.9c-1.3 25.6-7.1 48.3-25.8 67z"/>
-                        <radialGradient id="instagram_gradient" r="150%" cx="30%" cy="107%">
-                            <stop stop-color="#fdf497" offset="0" />
-                            <stop stop-color="#fdf497" offset="0.05" />
-                            <stop stop-color="#fd5949" offset="0.45" />
-                            <stop stop-color="#d6249f" offset="0.6" />
-                            <stop stop-color="#285AEB" offset="0.9" />
-                        </radialGradient>
-                </svg>
-                <br><a style="transform: none;">Instagram</a>
-            </a>
-        </i>
-        <i>
-            <a id="icon_youtube" target="_blank" href="https://www.youtube.com/@athemasmasa8562" aria-label="@athema.smasa youtube">
-                <svg xmlns="http://www.w3.org/2000/svg" height="56" width="58" viewBox="0 0 576 512">
-                    <path d="M549.7 124.1c-6.3-23.7-24.8-42.3-48.3-48.6C458.8 64 288 64 288 64S117.2 64 74.6 75.5c-23.5 6.3-42 24.9-48.3 48.6-11.4 42.9-11.4 132.3-11.4 132.3s0 89.4 11.4 132.3c6.3 23.7 24.8 41.5 48.3 47.8C117.2 448 288 448 288 448s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zm-317.5 213.5V175.2l142.7 81.2-142.7 81.2z"/>
-                </svg>
-                <br><a style="transform: none;">YouTube</a>
-            </a>
-        </i>
-        <i>
-            <a id="icon_discord" target="_blank" href="https://discord.gg/UmkPdxXF" aria-label="@athema.smasa discord">
-                <svg xmlns="http://www.w3.org/2000/svg" height="50" width="54" viewBox="0 0 640 512">
-                    <path d="M524.5 69.8a1.5 1.5 0 0 0 -.8-.7A485.1 485.1 0 0 0 404.1 32a1.8 1.8 0 0 0 -1.9 .9 337.5 337.5 0 0 0 -14.9 30.6 447.8 447.8 0 0 0 -134.4 0 309.5 309.5 0 0 0 -15.1-30.6 1.9 1.9 0 0 0 -1.9-.9A483.7 483.7 0 0 0 116.1 69.1a1.7 1.7 0 0 0 -.8 .7C39.1 183.7 18.2 294.7 28.4 404.4a2 2 0 0 0 .8 1.4A487.7 487.7 0 0 0 176 479.9a1.9 1.9 0 0 0 2.1-.7A348.2 348.2 0 0 0 208.1 430.4a1.9 1.9 0 0 0 -1-2.6 321.2 321.2 0 0 1 -45.9-21.9 1.9 1.9 0 0 1 -.2-3.1c3.1-2.3 6.2-4.7 9.1-7.1a1.8 1.8 0 0 1 1.9-.3c96.2 43.9 200.4 43.9 295.5 0a1.8 1.8 0 0 1 1.9 .2c2.9 2.4 6 4.9 9.1 7.2a1.9 1.9 0 0 1 -.2 3.1 301.4 301.4 0 0 1 -45.9 21.8 1.9 1.9 0 0 0 -1 2.6 391.1 391.1 0 0 0 30 48.8 1.9 1.9 0 0 0 2.1 .7A486 486 0 0 0 610.7 405.7a1.9 1.9 0 0 0 .8-1.4C623.7 277.6 590.9 167.5 524.5 69.8zM222.5 337.6c-29 0-52.8-26.6-52.8-59.2S193.1 219.1 222.5 219.1c29.7 0 53.3 26.8 52.8 59.2C275.3 311 251.9 337.6 222.5 337.6zm195.4 0c-29 0-52.8-26.6-52.8-59.2S388.4 219.1 417.9 219.1c29.7 0 53.3 26.8 52.8 59.2C470.7 311 447.5 337.6 417.9 337.6z"/>
-                </svg>
-                <br><a style="transform: none;">Discord</a>
-            </a>    
-        </i>
-        <i>
-            <a id="icon_spotify" target="_blank" href="https://open.spotify.com/playlist/58vd3JIOLCCygmXgZWMhhJ?si=u0mjl-goQNa61sJTlA3uLw" aria-label="@athema.smasa spotify">
-                <svg xmlns="http://www.w3.org/2000/svg" height="49" width="48.5" viewBox="0 0 496 512">
-                    <path d="M248 8C111.1 8 0 119.1 0 256s111.1 248 248 248 248-111.1 248-248S384.9 8 248 8zm100.7 364.9c-4.2 0-6.8-1.3-10.7-3.6-62.4-37.6-135-39.2-206.7-24.5-3.9 1-9 2.6-11.9 2.6-9.7 0-15.8-7.7-15.8-15.8 0-10.3 6.1-15.2 13.6-16.8 81.9-18.1 165.6-16.5 237 26.2 6.1 3.9 9.7 7.4 9.7 16.5s-7.1 15.4-15.2 15.4zm26.9-65.6c-5.2 0-8.7-2.3-12.3-4.2-62.5-37-155.7-51.9-238.6-29.4-4.8 1.3-7.4 2.6-11.9 2.6-10.7 0-19.4-8.7-19.4-19.4s5.2-17.8 15.5-20.7c27.8-7.8 56.2-13.6 97.8-13.6 64.9 0 127.6 16.1 177 45.5 8.1 4.8 11.3 11 11.3 19.7-.1 10.8-8.5 19.5-19.4 19.5zm31-76.2c-5.2 0-8.4-1.3-12.9-3.9-71.2-42.5-198.5-52.7-280.9-29.7-3.6 1-8.1 2.6-12.9 2.6-13.2 0-23.3-10.3-23.3-23.6 0-13.6 8.4-21.3 17.4-23.9 35.2-10.3 74.6-15.2 117.5-15.2 73 0 149.5 15.2 205.4 47.8 7.8 4.5 12.9 10.7 12.9 22.6 0 13.6-11 23.3-23.2 23.3z"/>
-                </svg>
-                <br><a style="transform: none;">Spotify</a>
-            </a>    
-        </i>
-
-    </div>
-    
-    <div class="filler">
-        <ul>
-            <li><h3>Maybe you like this random items</h3></li><br>
-            <li><a><img src="https://lh6.googleusercontent.com/gELL3pZDpS1pZwktBWvPohdOLabz6qZhLr_D2oQZgM6UdtHidob4HzGOR3iTPzgheSvXZJ1QI3VxfZbWMsv_pgLuWM-zzEqkd2OvOfqnPHt7yjYZ7lEr8Lt8bxLvTWPAUg=w1280" style="width: 90px; height: 90px;"></a></li>
-            <li><a><img src="https://lh6.googleusercontent.com/gELL3pZDpS1pZwktBWvPohdOLabz6qZhLr_D2oQZgM6UdtHidob4HzGOR3iTPzgheSvXZJ1QI3VxfZbWMsv_pgLuWM-zzEqkd2OvOfqnPHt7yjYZ7lEr8Lt8bxLvTWPAUg=w1280" style="width: 90px; height: 90px;"></a></li>
-            <li><a><img src="https://lh6.googleusercontent.com/gELL3pZDpS1pZwktBWvPohdOLabz6qZhLr_D2oQZgM6UdtHidob4HzGOR3iTPzgheSvXZJ1QI3VxfZbWMsv_pgLuWM-zzEqkd2OvOfqnPHt7yjYZ7lEr8Lt8bxLvTWPAUg=w1280" style="width: 90px; height: 90px;"></a></li>
-            <li><a><img src="https://lh6.googleusercontent.com/gELL3pZDpS1pZwktBWvPohdOLabz6qZhLr_D2oQZgM6UdtHidob4HzGOR3iTPzgheSvXZJ1QI3VxfZbWMsv_pgLuWM-zzEqkd2OvOfqnPHt7yjYZ7lEr8Lt8bxLvTWPAUg=w1280" style="width: 90px; height: 90px;"></a></li>
-        </ul>  
-    </div>
-
-    <div class="footer">
-        <a>Kelas XII MIPA 5<br><i>Association of Students MIPA 5</i></a>
-        <a style="font-weight: bold;">SMA NEGERI 1 JEMBER</a>
-        <a>Jl. Letjen Panjaitan No.55, Gumuk Kerang, Sumbersari, Kec. Sumbersari, Kabupaten Jember, Jawa Timur 68121</a>
-        <a id="foot_bottom">Ex. XII MIPA 5 SMASA grad.2023 | ©athema.smasa | 2024</a>
-    </div>
-
-    <script>
-        // Get the button:
-        let mybutton = document.getElementById("myBtn");
-
-        // When the user scrolls down 20px from the top of the document, show the button
-        window.onscroll = function() {scrollFunction()};
-
-        function scrollFunction() {
-        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-            mybutton.style.display = "block";
-        } else {
-            mybutton.style.display = "none";
-        }
-        }
-
-        // When the user clicks on the button, scroll to the top of the document
-        function topFunction() {
-        document.body.scrollTop = 0; // For Safari
-        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-        }
-    </script>
+    <script src="index_function.js"></script>
 
 </body>
 </html>
