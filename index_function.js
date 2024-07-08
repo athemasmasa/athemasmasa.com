@@ -84,9 +84,9 @@
         }
       }
 
-    function getScreenResolution() {
-        const width = window.screen.width;
-        const height = window.screen.height;
-        return `${width} x ${height}`;
-    }
-    document.getElementById('resolution').textContent = getScreenResolution();
+function getScreenResolution() {
+    const width = window.screen.width;
+    const height = window.screen.height;
+    return `${width} x ${height}`;
+}
+document.getElementById('resolution').textContent = getScreenResolution();
