@@ -50,14 +50,14 @@ ul {
     font-family: 'Times New Roman', Times, serif;
 }
 
-@media screen and (max-width: 520px) { /* responsive title */
+@media screen and (max-width: 720px) { /* responsive title */
     .navigation ul li a {
-        font-size: calc(15px + 17 * ((100vw - 521px) / 521));
+        font-size: calc(14px + 17 * ((100vw - 521px) / 521));
         padding: 14px calc(13px + 10 * ((100vw - 521px) / 521));
     }
 }
 
-@media screen and (min-width: 521px) { /* responsive title */
+@media screen and (min-width: 721px) { /* responsive title */
     .navigation ul li a {
         padding: 14px 15.4px;
     }
