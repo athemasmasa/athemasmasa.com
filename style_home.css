@@ -53,7 +53,7 @@ ul {
 @media screen and (max-width: 520px) { /* responsive title */
     .navigation ul li a {
         font-size: calc(15px + 17 * ((100vw - 521px) / 521));
-        padding: 14px calc(14px + 10 * ((100vw - 521px) / 521));
+        padding: 14px calc(13px + 10 * ((100vw - 521px) / 521));
     }
 }
 
