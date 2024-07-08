@@ -57,6 +57,9 @@ ul {
         font-size: calc(14px + 15 * ((100vw - 521px) / 521));
         padding: 14px calc(13px + 8 * ((100vw - 521px) / 521));
     }
+    #float_refresh {
+        display: none;
+    }
 }
 
 @media screen and (min-width: 376px) { /* responsive title */
