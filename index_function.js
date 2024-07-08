@@ -1,3 +1,12 @@
+    function getScreenResolution() {
+      const width = window.screen.width;
+      const height = window.screen.height;
+      return `${width} x ${height}`;
+    }
+
+    document.getElementById('resolution').textContent = getScreenResolution();
+
+
 // Progress Bar
 
     // When the user scrolls the page, execute myFunction 
@@ -83,11 +92,3 @@
           document.getElementById("autoBtn").style.color = "black";
         }
       }
-
-    function getScreenResolution() {
-      const width = window.screen.width;
-      const height = window.screen.height;
-      return `${width} x ${height}`;
-    }
-
-    document.getElementById('resolution').textContent = getScreenResolution();
