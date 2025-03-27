@@ -15,6 +15,8 @@ https://athemasmasa.github.io/athemasmasa.com/
 atau vercel
 https://athemasmasa.vercel.app/
 
+[beberapa item mungkin tidak ter-load karena banyaknya konten yang harus di load ketika membuka web 🫴]
+[padahal data sudah dikompress berkali-kali]
 
 hopefully can ease ur nostalgic memories with all of us!
 
